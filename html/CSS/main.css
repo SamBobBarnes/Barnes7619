@@ -1,0 +1,19 @@
+/*      main.css      */
+div.google {
+border:2px  black;
+padding:4px;
+width:15em;
+}
+
+div.head {
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #FF6600;
+  width: 60%;
+  height: 50px;
+  box-shadow: 5px 5px 5px 0px #000000;
+}
+
+div.head h1 {
+  text-align: center;
+}
