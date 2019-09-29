@@ -6,8 +6,8 @@ width:15em;
 }
 
 div.head {
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #FF6600;
   width: 60%;
   height: 50px;

@@ -1,0 +1,85 @@
+/*      main.css      */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+div.head {
+  left: 20%;
+  right: 20%;
+  background-color: #FF6600;
+  width: 60%;
+  height: 50px;
+  box-shadow: 5px 5px 9px 0px #333333;
+  position: fixed;
+  top: 10px;
+  border-radius: 20px;
+}
+
+div.head h1 {
+  text-align: center;
+  margin-top:auto;
+  margin-bottom:auto;
+  position: relative;
+  //top: 6px;
+  font-family: 'Pacifico', cursive;
+}
+
+div.sidebar {
+  background-color: #1FB0FF;
+  position: fixed;
+  width: 246px;
+  height: 80%;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  box-shadow: 5px 5px 9px 0px #555555;
+  top: 70px;
+  left: 10px;
+  box-sizing: content-box;
+}
+
+div.sidebaritem {
+  width: 100%;
+  height: 27px;
+  box-sizing: content-box;
+  margin-top: 5px;
+}
+
+div.google {
+  background-color: #000000;
+  padding:4px;
+  width:90%;
+  border-radius: 7px;
+  position: relative;
+  left: 2.5%;
+  top: 5px;
+}
+
+div.body {
+  //background-color: #FF0000;
+  //border: 2px solid #000000;
+  width: 100%;
+  height: auto;
+  box-sizing: content-box;
+}
+
+div.bodywrap {
+  width: 100%;
+  height: auto;
+  padding-left: 290px;
+  padding-top: 70px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  //background-color: #0000ff;
+}
+
+body {
+  background-color: #18c47f;
+}
