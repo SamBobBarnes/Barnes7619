@@ -46,7 +46,6 @@ function sidebarcreate(sidebartext, sidebarhref){
   var num = countbuttons(stuff);
   var height = 50;
   var height = height + num * 32;
-  console.log(height);
   var sidebarhtml = googlesearch + stuff;//sidebarstuff;
   document.getElementById("sidebar").innerHTML = sidebarhtml;
   document.getElementById("sidebar").style.height = height + "px";
