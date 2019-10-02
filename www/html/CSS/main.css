@@ -32,16 +32,18 @@ div.head h1 {
   font-family: 'Pacifico', cursive;
 }
 
-div.sidebar {
+div#sidebar {
   background-color: #1FB0FF;
   position: fixed;
-  width: 246px;
-  height: 80%;
+  width: 236px;
+  height: 50px;
   border-radius: 10px;
   border: 2px solid #000000;
   box-shadow: 5px 5px 9px 0px #555555;
   top: 70px;
   left: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   box-sizing: content-box;
 }
 
@@ -50,6 +52,11 @@ div.sidebaritem {
   height: 27px;
   box-sizing: content-box;
   margin-top: 5px;
+  background-color: #FF0000;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 27px;
+  font-family:
 }
 
 div.google {
@@ -58,8 +65,11 @@ div.google {
   width:90%;
   border-radius: 7px;
   position: relative;
-  left: 2.5%;
+  left: 3.5%;
   top: 5px;
+  height: 27px;
+  box-sizing: content-box;
+  margin-top: 5px;
 }
 
 div.body {
