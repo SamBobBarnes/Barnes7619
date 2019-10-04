@@ -93,3 +93,8 @@ div.bodywrap {
 body {
   background-color: #18c47f;
 }
+
+img#BarnesB {
+  width:50%;
+  float:right;
+}
