@@ -37,7 +37,7 @@ class SideBar {
     var stuff = sidebaritemhtml;
     var num = this.countbuttons(stuff);
     var height = 50;
-    var height = height + num * 32;
+    var height = height + num * 32 + 5;
     var sidebarhtml = googlesearch + stuff;//sidebarstuff;
     document.getElementById("sidebar").innerHTML = sidebarhtml;
     document.getElementById("sidebar").style.height = height + "px";
