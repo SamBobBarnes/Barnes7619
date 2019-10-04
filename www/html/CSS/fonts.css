@@ -7,7 +7,7 @@
   font-weight: normal;
   text-decoration: none;
   font-style: normal;
-  font-variant: small-caps;
+  font-variant: normal;
   text-transform: none;
 }
 
@@ -22,6 +22,23 @@
   font-style: normal;
   font-variant: small-caps;
   text-transform: none;
+}
+
+.headingMed {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none;
+}
+
+.centerText {
+  text-align: center;
 }
 
 
