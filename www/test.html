@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Test File</title>
+    <style>
+      #container {
+        width: 236px;
+        height: 27px;
+        position: relative;
+        background: yellow;
+        border-radius: 5px;
+      }
+      #animate {
+        width: 0px;
+        height: 27px;
+        position: absolute;
+        background: red;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var go = true;
+      function myMove() {
+        go = true;
+        var elem = document.getElementById("animate");
+        var width = 0;
+        var id = setInterval(frame, 0);
+        function frame() {
+          if (width == 236) {
+            clearInterval(id);
+          } else if (go == false){
+            return 0;
+          } else {
+            width++;
+            elem.style.width = width + "px";
+          }
+        }
+      }
+      function resetMove(){
+        go = false;
+        var elem = document.getElementById("animate");
+        var width = 0;
+        elem.style.width = width + "px";
+      }
+    </script>
+
+    <div id ="container" onmouseenter="myMove()" onmouseout="resetMove();">
+      <div id ="animate"></div>
+    </div>
+    <p><button onclick="myMove()">Click Me</button></p>
+  </body>
+</html>
