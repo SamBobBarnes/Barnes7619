@@ -4,7 +4,7 @@
     <title>Barnes</title>
     <link rel="stylesheet" type="text/css" href="CSS/main.css">
     <link rel="stylesheet" type="text/css" href="CSS/fonts.css">
-    <script src="JAVA/index.js" type="text/javascript"></script>
+    <!--<script src="JAVA/index.js" type="text/javascript"></script>-->
     <script src="JAVA/SideBar.js" type="text/javascript"></script>
   </head>
 
@@ -18,7 +18,11 @@
       <script type="text/javascript">
         var text = ["Samuel Barnes", "Aundrea Barnes"];
         var href = ["samuelbarnes.html", "aundreabarnes.html"];
-        let bar = new SideBar(text, href);</script>
+        let bar = new SideBar(text, href);
+        function goto(href){
+          location.href = href;
+        }
+      </script>
     </div>
 
     <div class='bodywrap'>

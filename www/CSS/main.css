@@ -32,7 +32,7 @@ div.head h1 {
   font-family: 'Pacifico', cursive;
 }
 
-div#sidebar {
+#sidebar {
   background-color: #1FB0FF;
   position: fixed;
   width: 236px;
@@ -47,19 +47,24 @@ div#sidebar {
   box-sizing: content-box;
 }
 
-div.sidebaritem {
+.sidebaritem {
   width: 100%;
   height: 27px;
   box-sizing: content-box;
   margin-top: 5px;
-  background-color: #FF0000;
+  background-color: #ff0000;
   border-radius: 5px;
   text-align: center;
   line-height: 27px;
-  font-family:
+  transition: 0.3s;
+  color:black;
 }
 
-div.google {
+.sidebaritem:hover {
+  color: #2de394;
+}
+
+.google {
   background-color: #000000;
   padding:4px;
   width:90%;
@@ -72,7 +77,7 @@ div.google {
   margin-top: 5px;
 }
 
-div#body {
+#body {
   //background-color: #FF0000;
   //border: 2px solid #000000;
   width: 100%;
@@ -80,7 +85,7 @@ div#body {
   box-sizing: content-box;
 }
 
-div.bodywrap {
+.bodywrap {
   width: 100%;
   height: auto;
   padding-left: 290px;

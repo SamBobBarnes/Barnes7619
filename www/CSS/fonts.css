@@ -56,8 +56,8 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: #2de394;
-  text-decoration: underline solid #2de394;
+  color: black;//#2de394;
+  text-decoration: underline solid black;//#2de394;
 }
 
 /* selected link */

@@ -1,12 +1,15 @@
 class SideBar {
+  itemlist = [];
 
   sidebaritemcreate(text, href, first){
-    var html = "<div class='sidebaritem ComicSans20'><a href='";
-    var fhtml = "<div class='sidebaritem ComicSans20' style='margin-top: 10px;'><a href='"
+    this.counter += 1;
+    var html = "<div class='sidebaritem ComicSans20' id='count" + this.counter + "'><a href='";
+    var fhtml = "<div class='sidebaritem ComicSans20' id='count" + this.counter + "' style='margin-top: 10px;')'><a href='"
     var htmlend = "'>";
     var end = "</a></div>";
     fhtml = fhtml + href + htmlend + text + end;
     html = html + href + htmlend + text + end;
+    this.itemlist.push("count" + this.counter);
     if (first == true) {return fhtml;}
     else {return html;}
   }
@@ -63,17 +66,48 @@ class SideBar {
     return googlesearch;
   }
 
+  redirectClick(id){
+    console.log(id);
+    for (var i = 0; i < this.itemlist.length; i++){
+      if (this.itemlist[i] == id) location.href = this.sidebarhref[i];
+    }
+  }
+
+  handleEvent(evt) {
+  switch(evt.type) {
+  case "click":
+    this.redirectClick(evt);
+    break;
+  default:
+    return;
+  }
+}
+
   constructor(text, href){
     //console.log("sidebar");
+    this.counter = 0;
+    //this.itemlist = [];
     if (!(text === undefined)) this.sidebartext = text;
     else this.sidebartext = ["Home","Samuel Barnes","Aundrea Barnes"];
     if (!(href === undefined)) {this.sidebarhref = href;} //console.log(href);}
     else {this.sidebarhref = ["index.html","samuelbarnes.html", "aundreabarnes.html"];} //console.log("executed");}
 
-    //document.addEventListener("DOMContentLoaded", function(event) {
     var sidebarhtml = "";
-    //console.log("dom");
+
     this.sidebarcreate(this.sidebartext, this.sidebarhref);
-    //});
+
+
+    for (var i = 0; i < this.itemlist.length; i++){
+      //var link = href[i];
+      var list = this.itemlist;
+      document.getElementById(this.itemlist[i]).addEventListener('click', function(){ //this.redirectClick(this.id) });
+        console.log(this.id);
+        for (var i = 0; i < list.length; i++){
+          if (itemlist[i] == this.id) location.href = this.sidebarhref[i];
+        }
+      });//() => this.redirectClick(), false);
+      //console.log(href[i]);
+    }
+    //this.hrefClick(this.itemlist, this.sidebarhref);
   }
 }
