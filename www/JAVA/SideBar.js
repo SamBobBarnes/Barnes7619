@@ -10,7 +10,7 @@ function google(){
         "<input type='text'   name='q' size='25' style='color:#808080;'" +
         "maxlength='255' value='Google site search'" +
         "onfocus='" + onfocustext1 + "' onblur='" + onfocustext2 + "'/>" +
-        "<input type='submit' value='Go!' />" +
+        "<input type='submit' value='Go!' style='width:15px; margin-right: auto; margin-left: auto;'/>" +
         "<input type='hidden' name='sitesearch' /></td></tr>" +
       "</table>" +
     "</div>";
