@@ -38,3 +38,9 @@ function itemHome(first){
   if (first) return fhtml;
   else return html;
 }
+
+function sidebarHeight(num){
+  var height = 50;
+  var height = height + num * 32 + 5;
+  document.getElementById("sidebar").style.height = height + "px";
+}
