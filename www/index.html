@@ -16,12 +16,9 @@
 
     <div id='sidebar'>
       <script type="text/javascript">
-        var text = ["Samuel Barnes", "Aundrea Barnes"];
-        var href = ["samuelbarnes.html", "aundreabarnes.html"];
-        let bar = new SideBar(text, href);
-        function goto(href){
-          location.href = href;
-        }
+        document.getElementById("sidebar").innerHTML = google() + itemSamuelBarnes(true) + itemAundreaBarnes(false);
+        document.getElementById("itemSamuelBarnes").addEventListener("Click", function(){ location.href = "Barnes7619.com/SamuelBarnes"; });
+        document.getElementById("itemAundreaBarnes").addEventListener("Click", function(){ location.href = "Barnes7619.com/AundreaBarnes"; });
       </script>
     </div>
 
