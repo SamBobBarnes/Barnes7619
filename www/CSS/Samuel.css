@@ -2,4 +2,6 @@
   width: 100px;
   height: 100px;
   float: right;
+  border-width:10px;
+  border-color: black;
 }
