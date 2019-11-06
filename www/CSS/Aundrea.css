@@ -1,0 +1,9 @@
+#profimage {
+  width: 300px;
+  height: 300px;
+  float: right;
+  border-width:10px;
+  border-color: black;
+  background-color: red;
+  border-style: solid;
+}
