@@ -110,3 +110,47 @@ pre.consolas {
   line-height: 23px;
 }
 /* End of Consolas Font */
+
+
+/* Arial Font Begin */
+h1.arial {
+  font-family: Arial;
+  font-size: 23px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+h3.arial {
+  font-family: Arial;
+  font-size: 17px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 23px;
+}
+p.arial {
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+blockquote.arial {
+  font-family: Arial;
+  font-size: 17px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+pre.arial {
+  font-family: Arial;
+  font-size: 11px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+/* End of Arial Font */
