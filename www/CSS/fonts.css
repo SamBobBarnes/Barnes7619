@@ -65,3 +65,48 @@ a:active {
   color: black;
   text-decoration: none;
 }
+
+
+
+/* Consolas Font Begin */
+h1.consolas {
+  font-family: Consolas, monaco, monospace;
+  font-size: 23px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+h3.consolas {
+  font-family: Consolas, monaco, monospace;
+  font-size: 17px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 23px;
+}
+p.consolas {
+  font-family: Consolas, monaco, monospace;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+blockquote.consolas {
+  font-family: Consolas, monaco, monospace;
+  font-size: 17px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+pre.consolas {
+  font-family: Consolas, monaco, monospace;
+  font-size: 11px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+/* End of Consolas Font */
