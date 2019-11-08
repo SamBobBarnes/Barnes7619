@@ -1,10 +1,12 @@
 #profimage {
   width: 300px;
   height: 300px;
+  margin: 10px;
   float: right;
   border-width:10px;
   border-color: black;
   background-color: #34e1eb;
   border-style: solid;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
 }
