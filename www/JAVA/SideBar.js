@@ -39,6 +39,13 @@ function itemAundreaBarnes(first){
   else return html;
 }
 
+function itemAundreaResume(first){
+  var html = "<div class='sidebaritem ComicSans20' id='itemAundreaResume'>Resume</div>";
+  var fhtml = "<div class='sidebaritem ComicSans20' id='itemAundreaResume' style='margin-top: 10px;')'>Resume</div>";
+  if (first) return fhtml;
+  else return html;
+}
+
 function itemHome(first){
   var html = "<div class='sidebaritem ComicSans20' id='itemHome'>Home</div>";
   var fhtml = "<div class='sidebaritem ComicSans20' id='itemHome' style='margin-top: 10px;')'>Home</div>";
