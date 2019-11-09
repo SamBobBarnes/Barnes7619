@@ -25,6 +25,13 @@ function itemSamuelBarnes(first){
   else return html;
 }
 
+function itemSamuelResume(first){
+  var html = "<div class='sidebaritem ComicSans20' id='itemSamuelResume'>Resume</div>";
+  var fhtml = "<div class='sidebaritem ComicSans20' id='itemSamuelResume' style='margin-top: 10px;')'>Resume</div>";
+  if (first) return fhtml;
+  else return html;
+}
+
 function itemAundreaBarnes(first){
   var html = "<div class='sidebaritem ComicSans20' id='itemAundreaBarnes'>Aundrea Barnes</div>";
   var fhtml = "<div class='sidebaritem ComicSans20' id='itemAundreaBarnes' style='margin-top: 10px;')'>Aundrea Barnes</div>";
