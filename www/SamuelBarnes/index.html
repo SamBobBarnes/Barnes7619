@@ -19,12 +19,13 @@
 
     <div id='sidebar'>
       <script type="text/javascript">
-        document.getElementById("sidebar").innerHTML = google() + itemHome(true) + itemSamuelBarnes(false) + itemSamuelResume(false) + itemAundreaBarnes(false);
+        document.getElementById("sidebar").innerHTML = google() + itemHome(true) + itemSamuelBarnes(false) + itemSamuelResume(false) + itemSamuelPortfolio(false) + itemAundreaBarnes(false);
         document.getElementById("itemHome").addEventListener("click", function(){ location.href = "../"; });
         document.getElementById("itemSamuelBarnes").addEventListener("click", function(){ location.href = "../SamuelBarnes"; });
         document.getElementById("itemAundreaBarnes").addEventListener("click", function(){ location.href = "../AundreaBarnes"; });
         document.getElementById("itemSamuelResume").addEventListener("click", function(){ location.href = "Documents/Resume Professional.docx"; });
-        sidebarHeight(4);
+        document.getElementById("itemSamuelBarnes").addEventListener("click", function(){ location.href = "../SamuelBarnes/Portfolio"; });
+        sidebarHeight(5);
       </script>
     </div>
 
