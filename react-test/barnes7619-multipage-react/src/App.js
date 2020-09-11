@@ -7,20 +7,13 @@ import {
 } from "react-router-dom";
 import SideBar from './Components/SideBar';
 import Header from './Components/Header';
-import Page from './Components/Page';
+import HomePage from './Components/HomePage';
 import HomeContents from './PageContents/Home.json'
 
 
 export default function App() {
     return (
       <Router>
-        <div>
-          <Header />
-        </div>
-
-
-
-
         <Switch>
         <Route path="/SamuelBarnes/Portfolio">
             <SBPortfolio />
@@ -55,8 +48,7 @@ function Home() {
 
   return (
     <React.Fragment>
-      <Page linkList={links}>Barnes 7-6-2019</Page>
-      <h2>Home</h2>
+      <HomePage linkList={links} contents={HomeContents}>Barnes 7-6-2019</HomePage>
     </React.Fragment>
   )
 }
@@ -88,7 +80,6 @@ function SamuelBarnes() {
   return (
     <React.Fragment>
       <SideBar linkList={links} />
-      <h2>Samuel Barnes</h2>
     </React.Fragment>
   )
 }
@@ -115,7 +106,6 @@ function AundreaBarnes() {
   return (
     <React.Fragment>
       <SideBar linkList={links} />
-      <h2>Aundrea Barnes</h2>
     </React.Fragment>
   )
 }
@@ -147,7 +137,6 @@ function SBPortfolio() {
   return (
     <React.Fragment>
       <SideBar linkList={links} />
-      <h2>Portfolio</h2>
     </React.Fragment>
   )
 }
