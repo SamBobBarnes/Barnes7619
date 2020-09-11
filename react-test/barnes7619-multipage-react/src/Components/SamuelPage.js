@@ -5,7 +5,7 @@ import '../CSS/Fonts.css'
 import '../CSS/Main.css'
 import BarnesB from '../IMG/BarnesB.jpg'
 
-class HomePage extends Component {
+class SamuelPage extends Component {
     render() {
         const {links,heading,body} = this.props.contents
         return (
@@ -24,4 +24,4 @@ class HomePage extends Component {
     }
 }
 
-export default HomePage
+export default SamuelPage

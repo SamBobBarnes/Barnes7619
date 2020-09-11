@@ -5,11 +5,15 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import SideBar from './Components/SideBar';
-import Header from './Components/Header';
-import HomePage from './Components/HomePage';
+import SideBar from './Components/SideBar'
+import HomePage from './Components/HomePage'
+import SamuelPage from './Components/SamuelPage'
+import AundreaPage from './Components/AundreaPage'
+import SamuelPortfolioPage from './Components/SamuelPortfolioPage'
 import HomeContents from './PageContents/Home.json'
-
+import SamuelContents from './PageContents/Samuel.json'
+import AundreaContents from './PageContents/Aundrea.json'
+import SamuelPortfolioContents from './PageContents/SamuelPortfolio.json'
 
 export default function App() {
     return (
@@ -33,144 +37,33 @@ export default function App() {
 }
 
 function Home() {
-  const links = [
-    {
-      id: 2,
-      href: '/SamuelBarnes',
-      text: 'Samuel Barnes'
-    },
-    {
-      id: 4,
-      href: '/AundreaBarnes',
-      text: 'Aundrea Barnes'
-    }
-  ]
-
   return (
     <React.Fragment>
-      <HomePage linkList={links} contents={HomeContents}>Barnes 7-6-2019</HomePage>
+      <HomePage contents={HomeContents}>Barnes 7-6-2019</HomePage>
     </React.Fragment>
   )
 }
 
 function SamuelBarnes() {
-  const links = [
-    {
-      id: 1,
-      href: '/',
-      text: 'Home'
-    },
-    {
-      id: 2,
-      href: '/SamuelBarnes',
-      text: 'Samuel Barnes'
-    },
-    {
-      id: 3,
-      href: '/SamuelBarnes/Portfolio',
-      text: 'SB Portfolio'
-    },
-    {
-      id: 4,
-      href: '/AundreaBarnes',
-      text: 'Aundrea Barnes'
-    }
-  ]
-
   return (
     <React.Fragment>
-      <SideBar linkList={links} />
+      <SamuelPage contents={SamuelContents}>Samuel Barnes</SamuelPage>
     </React.Fragment>
   )
 }
 
 function AundreaBarnes() {
-  const links = [
-    {
-      id: 1,
-      href: '/',
-      text: 'Home'
-    },
-    {
-      id: 2,
-      href: '/SamuelBarnes',
-      text: 'Samuel Barnes'
-    },
-    {
-      id: 4,
-      href: '/AundreaBarnes',
-      text: 'Aundrea Barnes'
-    }
-  ]
-
   return (
     <React.Fragment>
-      <SideBar linkList={links} />
+      <AundreaPage contents={AundreaContents}>Aundrea Barnes</AundreaPage>
     </React.Fragment>
   )
 }
 
 function SBPortfolio() {
-  const links = [
-    {
-      id: 1,
-      href: '/',
-      text: 'Home'
-    },
-    {
-      id: 2,
-      href: '/SamuelBarnes',
-      text: 'Samuel Barnes'
-    },
-    {
-      id: 3,
-      href: '/SamuelBarnes/Portfolio',
-      text: 'SB Portfolio'
-    },
-    {
-      id: 4,
-      href: '/AundreaBarnes',
-      text: 'Aundrea Barnes'
-    }
-  ]
-
   return (
     <React.Fragment>
-      <SideBar linkList={links} />
+      <SamuelPortfolioPage contents={SamuelPortfolioContents}>Samuel Barnes Portfolio</SamuelPortfolioPage>
     </React.Fragment>
   )
 }
-
-
-
-
-// export default function App() {
-//   return (
-//     <Router>
-//       <div>
-//         <nav>
-//           <ul>
-//             <li>
-//               <Link to="/">Home</Link>
-//             </li>
-//             <li>
-//               <Link to="/about">About</Link>
-//             </li>
-//             <li>
-//               <Link to="/users">Users</Link>
-//             </li>
-//             <li>
-//               <Link to="/SamuelBarnes">Sam</Link>
-//             </li>
-//           </ul>
-//         </nav>
-
-//         {/* A <Switch> looks through its children <Route>s and
-//             renders the first one that matches the current URL. */}
-//         
-//       </div>
-//     </Router>
-    
-//   );
-// }
-

@@ -54,6 +54,7 @@
 
 .headingMed {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-feature-settings: normal;
   font-size: 30px;
   letter-spacing: 2px;
   word-spacing: 2px;

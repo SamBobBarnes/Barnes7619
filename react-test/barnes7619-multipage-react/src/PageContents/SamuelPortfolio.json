@@ -1,9 +1,19 @@
 {
     "links": [
         {
+          "id": 1,
+          "href": "/",
+          "text": "Home"
+        },
+        {
           "id": 2,
           "href": "/SamuelBarnes",
           "text": "Samuel Barnes"
+        },
+        {
+          "id": 3,
+          "href": "/SamuelBarnes/Portfolio",
+          "text": "SB Portfolio"
         },
         {
           "id": 4,
@@ -11,6 +21,6 @@
           "text": "Aundrea Barnes"
         }
       ],
-    "heading": "We are the Barnes Family!",
+    "heading": "Portfolio",
     "body": "We are Samuel and Aundrea Barnes. We are currently students in our Senior year of studies at William Penn University."
 }
