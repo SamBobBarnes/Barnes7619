@@ -18,9 +18,10 @@
       ],
     "heading": "About Me",
     "info": "Degree: Bachelors of Arts in Elementary Education (2021) \n \u00a0\u00a0\u00a0-William Penn University",
-    "body": "We are Samuel and Aundrea Barnes. We are currently students in our Senior year of studies at William Penn University.",
     "bday": 15,
     "bmonth": 9,
     "byear": 1998,
-    "imgprops": "profimageab"
-}
+    "imgprops": "profimageab",
+    "bodyfont": "arial new-line",
+    "body": "Aundrea (Whitlatch-Hiemstra) Barnes is an Elementary Education Major with Endorsements in Reading and Special Education. Aundrea is a fourth-year student at William Penn University with plans of teaching 2nd or 3rd grade. She plans to student teach the fall of 2021. She is involved in many different activities involving William Penn University such as Marching Band, Pep Band, Concert Band, Choir, Education Club, Alpha Eta Omega Sorority, and works as an assistant in the Service Center on campus. Aundrea is also involved in other activities outside of William Penn University such as dance. She is an assistant teacher of younger children at Steppin' Out Dance Studio in Monroe, Iowa. She also takes an adult clogging class with other moms of dancers. In her ​free time, she loves reading, coloring, and spending time with her family."
+  }

@@ -8,7 +8,7 @@ import BodyContents from './BodyContents'
 
 class SamuelPage extends Component {
     render() {
-        const {links,heading,info,bday,bmonth,byear,imgprops,body} = this.props.contents
+        const {links,heading,info,bday,bmonth,byear,imgprops,body,bodyfont} = this.props.contents
         return (
             <React.Fragment>
                 <Header>{this.props.children}</Header>
@@ -23,7 +23,7 @@ class SamuelPage extends Component {
                             <h3 className='consolas new-line'>{info}</h3>
                             <AgeCalc bday={bday} bmonth={bmonth} byear={byear} />
                         </div>
-                        <BodyContents>{body}</BodyContents>
+                        <BodyContents font={bodyfont}>{body}</BodyContents>
                     </div>
                 </div>
             </React.Fragment>
