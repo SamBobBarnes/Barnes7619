@@ -43,3 +43,40 @@ div.head h1 {
     float:right;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+#profimagesb {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    float: right;
+    border-width:10px;
+    border-color: black;
+    background-color: red;
+    border-style: solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+}
+
+#profimageab {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    float: right;
+    border-width:10px;
+    border-color: black;
+    background-color: #34e1eb;
+    border-style: solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+ }
+  
+ .info {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    width: 45%;
+  }
+
+  .new-line {
+    white-space: pre-line;
+  }

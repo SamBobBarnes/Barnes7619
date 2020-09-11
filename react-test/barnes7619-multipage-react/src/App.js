@@ -5,10 +5,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import SideBar from './Components/SideBar'
 import HomePage from './Components/HomePage'
-import SamuelPage from './Components/SamuelPage'
-import AundreaPage from './Components/AundreaPage'
+import PersonPage from './Components/PersonPage'
 import SamuelPortfolioPage from './Components/SamuelPortfolioPage'
 import HomeContents from './PageContents/Home.json'
 import SamuelContents from './PageContents/Samuel.json'
@@ -47,7 +45,7 @@ function Home() {
 function SamuelBarnes() {
   return (
     <React.Fragment>
-      <SamuelPage contents={SamuelContents}>Samuel Barnes</SamuelPage>
+      <PersonPage contents={SamuelContents}>Samuel Barnes</PersonPage>
     </React.Fragment>
   )
 }
@@ -55,7 +53,7 @@ function SamuelBarnes() {
 function AundreaBarnes() {
   return (
     <React.Fragment>
-      <AundreaPage contents={AundreaContents}>Aundrea Barnes</AundreaPage>
+      <PersonPage contents={AundreaContents}>Aundrea Barnes</PersonPage>
     </React.Fragment>
   )
 }

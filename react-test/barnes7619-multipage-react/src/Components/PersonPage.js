@@ -3,19 +3,19 @@ import Header from './Header'
 import SideBar from './SideBar'
 import '../CSS/Fonts.css'
 import '../CSS/Main.css'
-import BarnesB from '../IMG/BarnesB.jpg'
 import AgeCalc from './AgeCalc'
+import BodyContents from './BodyContents'
 
-class AundreaPage extends Component {
+class SamuelPage extends Component {
     render() {
-        const {links,heading,body,info,bday,bmonth,byear} = this.props.contents
+        const {links,heading,info,bday,bmonth,byear,imgprops,body} = this.props.contents
         return (
             <React.Fragment>
                 <Header>{this.props.children}</Header>
                 <SideBar linkList={links} />
                 <div className='bodywrap'>
                     <div className='bodydiv'>
-                        <div id='profimageab'>
+                        <div id={imgprops}>
                             <p>Placeholder for Professional image</p>
                         </div>
                         <div className='info'>
@@ -23,6 +23,7 @@ class AundreaPage extends Component {
                             <h3 className='consolas new-line'>{info}</h3>
                             <AgeCalc bday={bday} bmonth={bmonth} byear={byear} />
                         </div>
+                        <BodyContents>{body}</BodyContents>
                     </div>
                 </div>
             </React.Fragment>
@@ -30,4 +31,4 @@ class AundreaPage extends Component {
     }
 }
 
-export default AundreaPage
+export default SamuelPage

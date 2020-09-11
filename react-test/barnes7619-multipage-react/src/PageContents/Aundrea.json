@@ -17,5 +17,10 @@
         }
       ],
     "heading": "About Me",
-    "body": "We are Samuel and Aundrea Barnes. We are currently students in our Senior year of studies at William Penn University."
+    "info": "Degree: Bachelors of Arts in Elementary Education (2021) \n \u00a0\u00a0\u00a0-William Penn University",
+    "body": "We are Samuel and Aundrea Barnes. We are currently students in our Senior year of studies at William Penn University.",
+    "bday": 15,
+    "bmonth": 9,
+    "byear": 1998,
+    "imgprops": "profimageab"
 }
