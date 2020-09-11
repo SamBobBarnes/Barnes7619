@@ -1,0 +1,20 @@
+div.head {
+    left: 20%;
+    right: 20%;
+    background-color: #FF6600;
+    width: 60%;
+    height: 50px;
+    box-shadow: 5px 5px 9px 0px #333333;
+    position: fixed;
+    top: 10px;
+    border-radius: 20px;
+}
+  
+div.head h1 {
+    text-align: center;
+    margin-top:auto;
+    margin-bottom:auto;
+    position: relative;
+    bottom: 10%;
+    font-family: 'Pacifico', cursive;
+}

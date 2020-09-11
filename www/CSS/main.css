@@ -80,8 +80,6 @@ div.head h1 {
 }
 
 #body {
-  //background-color: #FF0000;
-  //border: 2px solid #000000;
   width: 100%;
   height: auto;
   box-sizing: content-box;
@@ -94,7 +92,6 @@ div.head h1 {
   padding-top: 70px;
   padding-right: 10px;
   padding-bottom: 10px;
-  //background-color: #0000ff;
 }
 
 body {
