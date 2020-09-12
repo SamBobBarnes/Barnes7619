@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import HomePage from './Components/HomePage'
 import PersonPage from './Components/PersonPage'
-import SamuelPortfolioPage from './Components/SamuelPortfolioPage'
+import PortfolioPage from './Components/PortfolioPage'
 import HomeContents from './PageContents/Home.json'
 import SamuelContents from './PageContents/Samuel.json'
 import AundreaContents from './PageContents/Aundrea.json'
@@ -61,7 +61,7 @@ function AundreaBarnes() {
 function SBPortfolio() {
   return (
     <React.Fragment>
-      <SamuelPortfolioPage contents={SamuelPortfolioContents}>Samuel Barnes Portfolio</SamuelPortfolioPage>
+      <PortfolioPage contents={SamuelPortfolioContents}>Samuel Barnes Portfolio</PortfolioPage>
     </React.Fragment>
   )
 }

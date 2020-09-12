@@ -80,3 +80,7 @@ div.head h1 {
   .new-line {
     white-space: pre-line;
   }
+
+  .contents {
+    width: 80%;
+  }

@@ -23,7 +23,9 @@ class SamuelPage extends Component {
                             <h3 className='consolas new-line'>{info}</h3>
                             <AgeCalc bday={bday} bmonth={bmonth} byear={byear} />
                         </div>
-                        <BodyContents font={bodyfont}>{body}</BodyContents>
+                        <div className='contents'>
+                            <BodyContents font={bodyfont}>{body}</BodyContents>
+                        </div>
                     </div>
                 </div>
             </React.Fragment>
