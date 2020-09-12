@@ -21,6 +21,14 @@
           "text": "Aundrea Barnes"
         }
       ],
-    "heading": "Portfolio",
-    "body": "We are Samuel and Aundrea Barnes. We are currently students in our Senior year of studies at William Penn University."
+    "heading": "Samuel's Portfolio",
+    "body": [
+      {
+        "id": 1,
+        "blink": "Link to",
+        "link": " Google.com ",
+        "alink": "with this link",
+        "href": "https://github.com/SamBobBarnes/Barnes7619"
+      }
+    ]
 }

@@ -17,6 +17,10 @@ export default function App() {
     return (
       <Router>
         <Switch>
+        <Route path={['/http:', '/https:']} component={props => {
+          window.location.replace(props.location.pathname.substr(1)) // substr(1) removes the preceding '/'
+          return null
+        }}/>
         <Route path="/SamuelBarnes/Portfolio">
             <SBPortfolio />
           </Route>
