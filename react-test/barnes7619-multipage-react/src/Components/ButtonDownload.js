@@ -16,11 +16,11 @@ class Button extends Component {
 
     render() {
         return (
-            <Link to={this.state.href} style={{ textDecoration: 'none' }}>
+            <a href={this.state.href} style={{ textDecoration: 'none' }} download>
                 <div className='sidebaritem PatrickHand20'>
                     <b>{this.props.children}</b>
                 </div>
-            </Link>
+            </a>
         )
     }
 }

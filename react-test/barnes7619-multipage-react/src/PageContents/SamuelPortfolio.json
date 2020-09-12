@@ -11,6 +11,12 @@
           "text": "Samuel Barnes"
         },
         {
+          "id": 5,
+          "href": "../Resumes/Resume-Samuel-Barnes.pdf",
+          "text": "Samuel's Resume",
+          "download": true
+        },
+        {
           "id": 3,
           "href": "/SamuelBarnes/Portfolio",
           "text": "SB Portfolio"

@@ -14,6 +14,12 @@
           "id": 4,
           "href": "/AundreaBarnes",
           "text": "Aundrea Barnes"
+        },
+        {
+          "id": 5,
+          "href": "../Resumes/Resume-Aundrea-Barnes.pdf",
+          "text": "Aundrea's Resume",
+          "download": true
         }
       ],
     "heading": "About Me",
