@@ -1,4 +1,4 @@
-.sidebar {
+.sideBar {
 	background-color: #1fb0ff;
 	position: fixed;
 	width: 236px;
@@ -12,7 +12,7 @@
 	box-sizing: content-box;
 }
 
-.sidebaritem {
+.sideBarItemN {
 	width: 100%;
 	height: 27px;
 	box-sizing: content-box;
@@ -28,7 +28,7 @@
 	text-decoration: none;
 }
 
-.sidebaritemH {
+.sideBarItemH {
 	width: 100%;
 	height: 27px;
 	box-sizing: content-box;

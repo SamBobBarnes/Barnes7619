@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import styles from '../CSS/MainM.module.css';
 
-class Header extends Component {
+class HeaderM extends Component {
 	render() {
 		return (
-			<div className='head'>
+			<div className={styles.head}>
 				<h1>{this.props.children}</h1>
 			</div>
 		);
 	}
 }
 
-export default Header;
+export default HeaderM;

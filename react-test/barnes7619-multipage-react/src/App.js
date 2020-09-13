@@ -66,7 +66,7 @@ function Home() {
 				<HomePage contents={HomeContents}>Barnes 7-6-2019</HomePage>
 			</MediaQuery>
 			<MediaQuery maxDeviceWidth={1224}>
-				<HomePageM contents={HomeContents}>Barnes 7-6-2019</HomePageM>
+				<HomePageM contents={HomeContents}>Barnes</HomePageM>
 			</MediaQuery>
 		</React.Fragment>
 	);
