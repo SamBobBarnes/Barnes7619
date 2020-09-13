@@ -57,14 +57,14 @@
         "blink": "",
         "link": "Yahtzee Game",
         "alink": " written using the P5.js framework.",
-        "href": "http://localhost:3000/Projects/Yahtzee"
+        "href": "http://192.168.1.29/Projects/Yahtzee"
       },
       {
         "id": 6,
         "blink": "",
         "link": "Suicide Burn",
         "alink": " - a proof of concept for a game that I abandoned because I couldn't figure out how it would be fun. Created with the Unity game engine.",
-        "href": "http://localhost:3000/Projects/SuicideBurn"
+        "href": "http://192.168.1.29/Projects/SuicideBurn"
       }
     ]
 }
