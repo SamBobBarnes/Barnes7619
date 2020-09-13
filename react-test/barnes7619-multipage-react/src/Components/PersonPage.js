@@ -5,6 +5,8 @@ import '../CSS/Fonts.css';
 import '../CSS/Main.css';
 import AgeCalc from './AgeCalc';
 import BodyContents from './BodyContents';
+import SamPic from '../IMG/SamPic.png';
+import OndaPic from '../IMG/OndaPic.png';
 
 class SamuelPage extends Component {
 	render() {
@@ -18,7 +20,11 @@ class SamuelPage extends Component {
 			imgprops,
 			body,
 			bodyfont,
+			img,
 		} = this.props.contents;
+		var ProfPic;
+		if (img == 'SB') ProfPic = SamPic;
+		else if (img == 'AB') ProfPic = OndaPic;
 		return (
 			<React.Fragment>
 				<Header>{this.props.children}</Header>
@@ -26,7 +32,8 @@ class SamuelPage extends Component {
 				<div className='bodywrap'>
 					<div className='bodydiv'>
 						<div id={imgprops}>
-							<p>Placeholder for Professional image</p>
+							<img src={ProfPic} className='profpic' />
+							{/* <p>Placeholder for Professional image</p> */}
 						</div>
 						<div className='info'>
 							<h1 className='consolas centerText'>{heading}</h1>
