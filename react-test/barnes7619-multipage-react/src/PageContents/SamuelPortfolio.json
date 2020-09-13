@@ -13,7 +13,7 @@
         {
           "id": 5,
           "href": "SamPDF",
-          "text": "Samuel's Resume",
+          "text": "Resume",
           "download": true
         },
         {
@@ -28,13 +28,42 @@
         }
       ],
     "heading": "Samuel's Portfolio",
+    "font": "consolas14",
     "body": [
       {
         "id": 1,
-        "blink": "Link to",
-        "link": " Google.com ",
-        "alink": "with this link",
+        "blink": "My personal ",
+        "link": "Github",
+        "alink": ".",
+        "href": "https://github.com/SamBobBarnes"
+      },
+      {
+        "id": 2,
+        "blink": "The ",
+        "link": "Github",
+        "alink": " for this website in its transition from html to being built on React.",
         "href": "https://github.com/SamBobBarnes/Barnes7619"
+      },
+      {
+        "id": 3,
+        "blink": "My personal ",
+        "link": "Coding Projects",
+        "alink": ".",
+        "href": "https://github.com/SamBobBarnes/PersonalCodingProjects"
+      },
+      {
+        "id": 5,
+        "blink": "",
+        "link": "Yahtzee Game",
+        "alink": " written using the P5.js framework.",
+        "href": "/SamuelBarnes/Portfolio/Yahtzee"
+      },
+      {
+        "id": 6,
+        "blink": "",
+        "link": "Suicide Burn",
+        "alink": " - a proof of concept for a game that I abandoned because I couldn't figure out how it would be fun. Created with the Unity game engine.",
+        "href": "/SamuelBarnes/Portfolio/SuicideBurn"
       }
     ]
 }

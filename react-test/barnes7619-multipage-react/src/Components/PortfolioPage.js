@@ -12,8 +12,8 @@ class SamuelPortfolioPage extends Component {
     }
  
     render() {
-        const {links,heading,body} = this.props.contents
-        const bodyList = body.map((body) => <p key={body.id}>{body.blink}<Link to={{ pathname: body.href }} target="_blank">{body.link}</Link>{body.alink}</p>)
+        const {links,heading,body,font} = this.props.contents
+        const bodyList = body.map((body) => <p key={body.id} className={font}>{body.blink}<Link to={{ pathname: body.href }} target="_blank"><u>{body.link}</u></Link>{body.alink}</p>)
         return (
             <React.Fragment>
                 <Header>{this.props.children}</Header>
@@ -21,7 +21,9 @@ class SamuelPortfolioPage extends Component {
                 <div className='bodywrap'>
                     <div className='bodydiv'>
                         <h2 className='headingMed centerText'>{heading}</h2>
-                        {bodyList}
+                        <div className='portfoliobody'>
+                            {bodyList}
+                        </div>
                     </div>
                 </div>
             </React.Fragment>

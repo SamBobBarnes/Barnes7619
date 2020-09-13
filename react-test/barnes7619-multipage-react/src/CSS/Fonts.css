@@ -189,6 +189,15 @@ p.consolas {
   font-weight: 400;
   line-height: 23px;
 }
+p.consolas14 {
+  font-family: Consolas, monaco, monospace;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
 blockquote.consolas {
   font-family: Consolas, monaco, monospace;
   font-size: 17px;
@@ -197,6 +206,7 @@ blockquote.consolas {
   font-weight: 400;
   line-height: 23px;
 }
+
 pre.consolas {
   font-family: Consolas, monaco, monospace;
   font-size: 11px;

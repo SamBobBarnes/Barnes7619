@@ -84,3 +84,7 @@ div.head h1 {
   .contents {
     width: 80%;
   }
+
+  .portfoliobody {
+    padding-left: 20px;
+  }
