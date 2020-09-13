@@ -7,8 +7,6 @@ import HomeContents from './PageContents/Home.json';
 import SamuelContents from './PageContents/Samuel.json';
 import AundreaContents from './PageContents/Aundrea.json';
 import SamuelPortfolioContents from './PageContents/SamuelPortfolio.json';
-import MediaQuery from 'react-responsive';
-import HomePageM from './Components/HomePageM';
 
 export default function App() {
 	return (
@@ -30,9 +28,6 @@ export default function App() {
 				<Route path='/AundreaBarnes'>
 					<AundreaBarnes />
 				</Route>
-				<Route path='/s'>
-					<Home sidebar={true} />
-				</Route>
 				<Route path='/'>
 					<Home sidebar={false} />
 				</Route>
@@ -42,18 +37,7 @@ export default function App() {
 }
 
 function Home(props) {
-	return (
-		<React.Fragment>
-			<MediaQuery minDeviceWidth={1224}>
-				<HomePage contents={HomeContents}>Barnes 7-6-2019</HomePage>
-			</MediaQuery>
-			<MediaQuery maxDeviceWidth={1224}>
-				<HomePageM contents={HomeContents} sidebar={props.sidebar}>
-					Barnes 7-6-2019
-				</HomePageM>
-			</MediaQuery>
-		</React.Fragment>
-	);
+	return <HomePage contents={HomeContents}>Barnes 7-6-2019</HomePage>;
 }
 
 function SamuelBarnes() {
