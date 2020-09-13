@@ -1,0 +1,84 @@
+* {
+	box-sizing: inherit;
+}
+
+div.head {
+	left: 20%;
+	right: 20%;
+	background-color: #ff6600;
+	width: 60%;
+	height: 50px;
+	box-shadow: 5px 5px 9px 0px #333333;
+	position: fixed;
+	top: 10px;
+	border-radius: 20px;
+}
+
+div.head h1 {
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+	position: relative;
+	bottom: 10%;
+	font-family: 'Pacifico', cursive;
+}
+
+.bodywrap {
+	width: 100%;
+	height: auto;
+	padding-left: 290px;
+	padding-top: 70px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.bodydiv {
+	width: 100%;
+	height: auto;
+	box-sizing: content-box;
+}
+
+.sbimg {
+	width: 50%;
+	float: right;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#profimage {
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	float: right;
+	border-width: 10px;
+	border-color: black;
+	background-color: black;
+	border-style: solid;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	overflow: hidden;
+	border-radius: 40px;
+}
+
+.profpic {
+	width: 300px;
+	height: 300px;
+	border-radius: 20px;
+}
+
+.info {
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 20px;
+	width: 45%;
+}
+
+.new-line {
+	white-space: pre-line;
+}
+
+.contents {
+	width: 80%;
+}
+
+.portfoliobody {
+	padding-left: 20px;
+}

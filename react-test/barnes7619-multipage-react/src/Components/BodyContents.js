@@ -1,10 +1,10 @@
 import React from 'react';
-import '../CSS/Fonts.css';
-import '../CSS/Main.css';
+import fontStyles from '../CSS/Fonts.module.css';
+import styles from '../CSS/Main.module.css';
 
 function BodyContents(props) {
 	const { font } = props;
-	return <p className={font}>{props.children}</p>;
+	return <p className={fontStyles.font}>{props.children}</p>;
 }
 
 export default BodyContents;

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import SideBar from './SideBar';
-import '../CSS/Fonts.css';
-import '../CSS/Main.css';
+import fontStyles from '../CSS/Fonts.module.css';
+import styles from '../CSS/Main.module.css';
 import AgeCalc from './AgeCalc';
 import BodyContents from './BodyContents';
 import SamPic from '../IMG/SamPic.png';

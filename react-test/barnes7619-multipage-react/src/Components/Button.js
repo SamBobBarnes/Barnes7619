@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import '../CSS/SideBar.css';
+import sideBarStyles from '../CSS/SideBar.module.css';
+import fontStyles from '../CSS/Fonts.module.css';
 import { Link } from 'react-router-dom';
 
 class Button extends Component {
@@ -15,11 +16,15 @@ class Button extends Component {
 		return (
 			<Link to={this.state.href} style={{ textDecoration: 'none' }}>
 				{this.props.current ? (
-					<div className='sidebaritemH PatrickHand20'>
+					<div
+						className={(sideBarStyles.sideBarItemH, fontStyles.PatrickHand20)}
+					>
 						<b>{this.props.children}</b>
 					</div>
 				) : (
-					<div className='sidebaritem PatrickHand20'>
+					<div
+						className={(sideBarStyles.sidebaritem, fontStyles.PatrickHand20)}
+					>
 						<b>{this.props.children}</b>
 					</div>
 				)}

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../CSS/SideBar.css';
+import sideBarStyles from '../CSS/SideBar.module.css';
 import { Link } from 'react-router-dom';
 import SamPDF from '../Resumes/Resume-Samuel-Barnes.pdf';
 import OndaPDF from '../Resumes/Resume-Aundrea-Barnes.pdf';

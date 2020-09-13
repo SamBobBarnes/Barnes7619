@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import '../CSS/SideBar.css';
-import '../CSS/Fonts.css';
+import sideBarStyles from '../CSS/SideBar.module.css';
+import fontStyles from '../CSS/Fonts.module.css';
 import Button from './Button';
 import ButtonDownload from './ButtonDownload';
 
@@ -21,7 +21,7 @@ class SideBar extends Component {
 				</Button>
 			)
 		);
-		return <div className='sidebar'>{nodes}</div>;
+		return <div className={sideBarStyles.sideBar}>{nodes}</div>;
 	}
 }
 

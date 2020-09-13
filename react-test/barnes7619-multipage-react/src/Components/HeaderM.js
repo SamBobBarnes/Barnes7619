@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import styles from '../CSS/Main.module.css';
+import styles from '../CSS/MainM.module.css';
 
 class Header extends Component {
 	render() {
 		return (
-			<div className={styles.head}>
+			<div className='head'>
 				<h1>{this.props.children}</h1>
 			</div>
 		);
