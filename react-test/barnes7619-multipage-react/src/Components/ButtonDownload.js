@@ -29,7 +29,7 @@ class Button extends Component {
             name = 'Resume-Aundrea-Barnes.pdf'
         }
         return (
-            <a href={PDF} download={name}>
+            <a href={PDF} download={name} style={{ textDecoration: 'none' }}>
                 <div className='sidebaritem PatrickHand20'>
                     <b>{this.props.children}</b>
                 </div>

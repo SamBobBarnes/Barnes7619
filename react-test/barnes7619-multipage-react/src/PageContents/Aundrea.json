@@ -13,7 +13,8 @@
         {
           "id": 4,
           "href": "/AundreaBarnes",
-          "text": "Aundrea Barnes"
+          "text": "Aundrea Barnes",
+          "current": true
         },
         {
           "id": 5,

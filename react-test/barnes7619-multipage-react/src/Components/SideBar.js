@@ -9,7 +9,7 @@ class SideBar extends Component {
 
         const nodes = this.props.linkList.map((node) => (
             node.download ? <ButtonDownload key={node.id} href={node.href}>{node.text}</ButtonDownload> :
-            <Button key={node.id} href={node.href}>{node.text}</Button>
+            <Button key={node.id} href={node.href} current={node.current ? true:false}>{node.text}</Button>
         ))
         return <div className='sidebar'>{nodes}</div>
     }

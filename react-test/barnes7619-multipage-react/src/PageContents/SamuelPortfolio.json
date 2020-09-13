@@ -19,7 +19,8 @@
         {
           "id": 3,
           "href": "/SamuelBarnes/Portfolio",
-          "text": "SB Portfolio"
+          "text": "SB Portfolio",
+          "current": true
         },
         {
           "id": 4,
