@@ -1,34 +1,34 @@
 {
-    "links": [
-        {
-          "id": 1,
-          "href": "/",
-          "text": "Home"
-        },
-        {
-          "id": 2,
-          "href": "/SamuelBarnes",
-          "text": "Samuel Barnes"
-        },
-        {
-          "id": 4,
-          "href": "/AundreaBarnes",
-          "text": "Aundrea Barnes",
-          "current": true
-        },
-        {
-          "id": 5,
-          "href": "OndaPDF",
-          "text": "Resume",
-          "download": true
-        }
-      ],
-    "heading": "About Me",
-    "info": "Degree: Bachelors of Arts in Elementary Education (2021) \n With Reading and Special Education endorsments \n \u00a0\u00a0\u00a0-William Penn University",
-    "bday": 15,
-    "bmonth": 9,
-    "byear": 1998,
-    "imgprops": "profimageab",
-    "bodyfont": "BalsamiqSans20 new-line",
-    "body": "Hello, my name is Aundrea (Whitlatch-Hiemstra) Barnes I am senior at William Penn University in Oskaloosa, Iowa. I am an Elementary Education Major with Endorsements in Reading (K-8) and Special Education. I will be student teaching Fall of 2021. My plans are to become a 3rd grade teacher. I want to become an elementary school teacher because my nephews showed me how much I love being around children and all the amazing things I can teach them.\n\nI am involved in many different activities involving William Penn University such as Marching Band, Pep Band, Concert Band, Choir, 2nd year Secretary of the Education Club, 1-year Secretary of Alpha Eta Omega Sorority, and I work as an assistant in the Service Center on campus. \n\nI am from Oskaloosa, Iowa. My family includes my husband Sam, my mother Jodi, my father Steve, my brother Gibb and his two boys Teegin and Sawyer, my oldest brother Sean and his wife Heather and their son Hayden. I also have a pet guinea pig named Mocha.\n\nIn my free time, I love reading, playing flute, dancing, golfing, cleaning, traveling with my family, playing board games with my family, and hanging out with my friends and family."
-  }
+	"links": [
+		{
+			"id": 1,
+			"href": "/",
+			"text": "Home"
+		},
+		{
+			"id": 2,
+			"href": "/SamuelBarnes",
+			"text": "Samuel Barnes"
+		},
+		{
+			"id": 4,
+			"href": "/AundreaBarnes",
+			"text": "Aundrea Barnes",
+			"current": true
+		},
+		{
+			"id": 5,
+			"href": "OndaPDF",
+			"text": "Resume",
+			"download": true
+		}
+	],
+	"heading": "About Me",
+	"info": "Degree: Bachelors of Arts in Elementary Education (2021) \n With Reading and Special Education endorsments \n \u00a0\u00a0\u00a0-William Penn University",
+	"bday": 15,
+	"bmonth": 9,
+	"byear": 1998,
+	"imgprops": "profimageab",
+	"bodyfont": "BalsamiqSans20 new-line",
+	"body": "Hello, my name is Aundrea (Whitlatch-Hiemstra) Barnes I am senior at William Penn University in Oskaloosa, Iowa. I am an Elementary Education Major with Endorsements in Reading (K-8) and Special Education. I will be student teaching Fall of 2021. My plans are to become a 3rd grade teacher. I want to become an elementary school teacher because my nephews showed me how much I love being around children and all the amazing things I can teach them.\n\nI am involved in many different activities involving William Penn University such as Marching Band, Pep Band, Concert Band, Choir, 2nd year Secretary of the Education Club, 1-year Secretary of Alpha Eta Omega Sorority, and I work as an assistant in the Service Center on campus. \n\nI am from Oskaloosa, Iowa. My family includes my husband Sam, my mother Jodi, my father Steve, my brother Gibb and his two boys Teegin and Sawyer, my oldest brother Sean and his wife Heather and their son Hayden. I also have a pet guinea pig named Mocha.\n\nIn my free time, I love reading, playing flute, dancing, golfing, cleaning, traveling with my family, playing board games with my family, and hanging out with my friends and family."
+}

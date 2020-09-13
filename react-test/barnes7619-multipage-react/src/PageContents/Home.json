@@ -1,16 +1,16 @@
 {
-    "links": [
-        {
-          "id": 2,
-          "href": "/SamuelBarnes",
-          "text": "Samuel Barnes"
-        },
-        {
-          "id": 4,
-          "href": "/AundreaBarnes",
-          "text": "Aundrea Barnes"
-        }
-      ],
-    "heading": "We are the Barnes Family!",
-    "body": "We are Samuel and Aundrea Barnes. We are currently students in our Senior year of studies at William Penn University."
+	"links": [
+		{
+			"id": 2,
+			"href": "/SamuelBarnes",
+			"text": "Samuel Barnes"
+		},
+		{
+			"id": 4,
+			"href": "/AundreaBarnes",
+			"text": "Aundrea Barnes"
+		}
+	],
+	"heading": "We are the Barnes Family!",
+	"body": "We are Samuel and Aundrea Barnes. We are currently students in our Senior year of studies at William Penn University."
 }

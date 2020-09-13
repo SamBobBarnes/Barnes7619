@@ -3,261 +3,257 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 .JosefinSans20 {
-  font-family: "Josefin Sans", cursive;
-  font-size: 19px;
-  letter-spacing: 0px;
-  word-spacing: 0px;
-  color: #000000;
-  font-weight: normal;
-  text-decoration: none;
-  font-style: normal;
-  /* font-variant: small-caps; */
-  text-transform: none;
+	font-family: 'Josefin Sans', cursive;
+	font-size: 19px;
+	letter-spacing: 0px;
+	word-spacing: 0px;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
+	/* font-variant: small-caps; */
+	text-transform: none;
 }
 
 .ArchitectsDaughter20 {
-  font-family: "Architects Daughter", cursive;
-  font-size: 20px;
-  letter-spacing: 0px;
-  word-spacing: 0px;
-  color: #000000;
-  font-weight: normal;
-  text-decoration: none;
-  font-style: normal;
-  /* font-variant: small-caps; */
-  text-transform: none;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+	letter-spacing: 0px;
+	word-spacing: 0px;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
+	/* font-variant: small-caps; */
+	text-transform: none;
 }
 
 .BalsamiqSans20 {
-  font-family: "Balsamiq Sans", cursive;
-  font-size: 20px;
-  letter-spacing: 0px;
-  word-spacing: 0px;
-  color: #000000;
-  font-weight: normal;
-  text-decoration: none;
-  font-style: normal;
-  /* font-variant: small-caps; */
-  text-transform: none;
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: 20px;
+	letter-spacing: 0px;
+	word-spacing: 0px;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
+	/* font-variant: small-caps; */
+	text-transform: none;
 }
 
 .Courgette20 {
-  font-family: "Courgette", cursive;
-  font-size: 20px;
-  letter-spacing: 0px;
-  word-spacing: 0px;
-  color: #000000;
-  font-weight: normal;
-  text-decoration: none;
-  font-style: normal;
-  /* font-variant: small-caps; */
-  text-transform: none;
+	font-family: 'Courgette', cursive;
+	font-size: 20px;
+	letter-spacing: 0px;
+	word-spacing: 0px;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
+	/* font-variant: small-caps; */
+	text-transform: none;
 }
 
 .Kalam20 {
-  font-family: "Kalam", cursive;
-  font-size: 20px;
-  letter-spacing: 0px;
-  word-spacing: 0px;
-  color: #000000;
-  font-weight: normal;
-  text-decoration: none;
-  font-style: normal;
-  /* font-variant: small-caps; */
-  text-transform: none;
+	font-family: 'Kalam', cursive;
+	font-size: 20px;
+	letter-spacing: 0px;
+	word-spacing: 0px;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
+	/* font-variant: small-caps; */
+	text-transform: none;
 }
 
 .ComicSans15 {
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 15px;
-  letter-spacing: 0px;
-  word-spacing: 2px;
-  color: #000000;
-  font-weight: normal;
-  text-decoration: none;
-  font-style: normal;
-  font-variant: normal;
-  text-transform: none;
+	font-family: 'Comic Sans MS', cursive, sans-serif;
+	font-size: 15px;
+	letter-spacing: 0px;
+	word-spacing: 2px;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
 }
 
 .ComicSans20 {
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 20px;
-  letter-spacing: 0px;
-  word-spacing: 2px;
-  color: #000000;
-  font-weight: normal;
-  text-decoration: none;
-  font-style: normal;
-  font-variant: small-caps;
-  text-transform: none;
+	font-family: 'Comic Sans MS', cursive, sans-serif;
+	font-size: 20px;
+	letter-spacing: 0px;
+	word-spacing: 2px;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: small-caps;
+	text-transform: none;
 }
 
 .PatrickHand15 {
-  font-family: "Patrick Hand", Times, sans-serif;
-  font-size: 15px;
-  letter-spacing: 0px;
-  word-spacing: 2px;
-  color: #000000;
-  font-weight: normal;
-  text-decoration: none;
-  font-style: normal;
-  font-variant: normal;
-  text-transform: none;
+	font-family: 'Patrick Hand', Times, sans-serif;
+	font-size: 15px;
+	letter-spacing: 0px;
+	word-spacing: 2px;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
 }
 
 .PatrickHand20 {
-  font-family: "Patrick Hand", Times, sans-serif;
-  font-size: 20px;
-  letter-spacing: 0px;
-  word-spacing: 2px;
-  color: #000000;
-  font-weight: normal;
-  text-decoration: none;
-  font-style: normal;
-  font-variant: small-caps;
-  text-transform: none;
+	font-family: 'Patrick Hand', Times, sans-serif;
+	font-size: 20px;
+	letter-spacing: 0px;
+	word-spacing: 2px;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: small-caps;
+	text-transform: none;
 }
 
 .headingMed {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-feature-settings: normal;
-  font-size: 30px;
-  letter-spacing: 2px;
-  word-spacing: 2px;
-  color: #000000;
-  font-weight: 700;
-  text-decoration: none;
-  font-style: normal;
-  font-variant: small-caps;
-  text-transform: none;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-feature-settings: normal;
+	font-size: 30px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: #000000;
+	font-weight: 700;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: small-caps;
+	text-transform: none;
 }
 
 .centerText {
-  text-align: center;
+	text-align: center;
 }
-
 
 /*                Links               */
 a:link {
-  color: black;
-  text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: black;
-  text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-  color: black;
-  text-decoration: underline solid black;
+	color: black;
+	text-decoration: underline solid black;
 }
 
 /* selected link */
 a:active {
-  color: black;
-  text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
-
-
 
 /* Consolas Font Begin */
 h1.consolas {
-  font-family: Consolas, monaco, monospace;
-  font-size: 23px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 23px;
+	font-family: Consolas, monaco, monospace;
+	font-size: 23px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 23px;
 }
 h3.consolas {
-  font-family: Consolas, monaco, monospace;
-  font-size: 17px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 700;
-  line-height: 23px;
+	font-family: Consolas, monaco, monospace;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 23px;
 }
 p.consolas {
-  font-family: Consolas, monaco, monospace;
-  font-size: 17px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 23px;
+	font-family: Consolas, monaco, monospace;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 23px;
 }
 p.consolas14 {
-  font-family: Consolas, monaco, monospace;
-  font-size: 14px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 23px;
-  font-weight: bold;
+	font-family: Consolas, monaco, monospace;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 23px;
+	font-weight: bold;
 }
 
 blockquote.consolas {
-  font-family: Consolas, monaco, monospace;
-  font-size: 17px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 23px;
+	font-family: Consolas, monaco, monospace;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 23px;
 }
 
 pre.consolas {
-  font-family: Consolas, monaco, monospace;
-  font-size: 11px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 23px;
+	font-family: Consolas, monaco, monospace;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 23px;
 }
 /* End of Consolas Font */
 
-
 /* Arial Font Begin */
 h1.arial {
-  font-family: Arial;
-  font-size: 23px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 23px;
+	font-family: Arial;
+	font-size: 23px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 23px;
 }
 h3.arial {
-  font-family: Arial;
-  font-size: 17px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 700;
-  line-height: 23px;
+	font-family: Arial;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 23px;
 }
 p.arial {
-  font-family: Arial;
-  font-size: 14px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 23px;
+	font-family: Arial;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 23px;
 }
 blockquote.arial {
-  font-family: Arial;
-  font-size: 17px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 23px;
+	font-family: Arial;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 23px;
 }
 pre.arial {
-  font-family: Arial;
-  font-size: 11px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 23px;
+	font-family: Arial;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 23px;
 }
 /* End of Arial Font */
