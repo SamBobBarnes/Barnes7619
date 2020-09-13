@@ -13,15 +13,16 @@ import SamuelContents from './PageContents/Samuel.json'
 import AundreaContents from './PageContents/Aundrea.json'
 import SamuelPortfolioContents from './PageContents/SamuelPortfolio.json'
 
+
 export default function App() {
     return (
       <Router>
         <Switch>
-        <Route path={['/http:', '/https:']} component={props => {
-          window.location.replace(props.location.pathname.substr(1)) // substr(1) removes the preceding '/'
-          return null
-        }}/>
-        <Route path="/SamuelBarnes/Portfolio">
+          <Route path={['/http:', '/https:']} component={props => {
+            window.location.replace(props.location.pathname.substr(1)) // substr(1) removes the preceding '/'
+            return null
+          }}/>
+          <Route path="/SamuelBarnes/Portfolio">
             <SBPortfolio />
           </Route>
           <Route path="/SamuelBarnes">
