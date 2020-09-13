@@ -7,6 +7,7 @@ import AgeCalc from './AgeCalc';
 import BodyContents from './BodyContents';
 import SamPic from '../IMG/SamPic.png';
 import OndaPic from '../IMG/OndaPic.png';
+import cx from 'classnames';
 
 class SamuelPage extends Component {
 	render() {
@@ -17,30 +18,33 @@ class SamuelPage extends Component {
 			bday,
 			bmonth,
 			byear,
-			imgprops,
 			body,
 			bodyfont,
 			img,
 		} = this.props.contents;
 		var ProfPic;
-		if (img == 'SB') ProfPic = SamPic;
-		else if (img == 'AB') ProfPic = OndaPic;
+		if (img === 'SB') ProfPic = SamPic;
+		else if (img === 'AB') ProfPic = OndaPic;
 		return (
 			<React.Fragment>
 				<Header>{this.props.children}</Header>
 				<SideBar linkList={links} />
-				<div className='bodywrap'>
-					<div className='bodydiv'>
-						<div id={imgprops}>
-							<img src={ProfPic} className='profpic' />
+				<div className={styles.bodywrap}>
+					<div className={styles.bodydiv}>
+						<div className={styles.profimage}>
+							<img src={ProfPic} className={styles.profpic} alt='Profile Pic' />
 							{/* <p>Placeholder for Professional image</p> */}
 						</div>
-						<div className='info'>
-							<h1 className='consolas centerText'>{heading}</h1>
-							<h3 className='consolas new-line'>{info}</h3>
+						<div className={styles.info}>
+							<h1 className={cx(fontStyles.centerText, fontStyles.consolas)}>
+								{heading}
+							</h1>
+							<h3 className={cx(fontStyles.consolas, styles.newLine)}>
+								{info}
+							</h3>
 							<AgeCalc bday={bday} bmonth={bmonth} byear={byear} />
 						</div>
-						<div className='contents'>
+						<div className={styles.contents}>
 							<BodyContents font={bodyfont}>{body}</BodyContents>
 						</div>
 					</div>

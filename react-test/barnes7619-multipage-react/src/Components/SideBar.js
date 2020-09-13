@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import sideBarStyles from '../CSS/SideBar.module.css';
-import fontStyles from '../CSS/Fonts.module.css';
 import Button from './Button';
 import ButtonDownload from './ButtonDownload';
 

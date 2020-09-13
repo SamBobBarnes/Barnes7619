@@ -11,7 +11,7 @@ function AgeCalc(props) {
 
 	if (month < bmonth - 1) {
 		age -= 1;
-	} else if (month == bmonth - 1) {
+	} else if (month === bmonth - 1) {
 		if (day < bday) {
 			age -= 1;
 		}
