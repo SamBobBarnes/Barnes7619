@@ -30,43 +30,27 @@ export default function App() {
 				<Route path='/AundreaBarnes'>
 					<AundreaBarnes />
 				</Route>
+				<Route path='/s'>
+					<Home sidebar={true} />
+				</Route>
 				<Route path='/'>
-					<Home />
+					<Home sidebar={false} />
 				</Route>
 			</Switch>
 		</Router>
-		// <div>
-		// 	<div>Device Test!</div>
-
-		// <MediaQuery minDeviceWidth={1224}>
-		// 	<div>You are a desktop or laptop</div>
-		// </MediaQuery>
-		// <MediaQuery maxDeviceWidth={1224}>
-		// 	<div>You are a tablet or mobile phone</div>
-		// </MediaQuery>
-
-		// 	<MediaQuery orientation='portrait'>
-		// 		<div>You are portrait</div>
-		// 	</MediaQuery>
-		// 	<MediaQuery orientation='landscape'>
-		// 		<div>You are landscape</div>
-		// 	</MediaQuery>
-
-		// 	<MediaQuery minResolution='2dppx'>
-		// 		<div>You are retina</div>
-		// 	</MediaQuery>
-		// </div>
 	);
 }
 
-function Home() {
+function Home(props) {
 	return (
 		<React.Fragment>
 			<MediaQuery minDeviceWidth={1224}>
 				<HomePage contents={HomeContents}>Barnes 7-6-2019</HomePage>
 			</MediaQuery>
 			<MediaQuery maxDeviceWidth={1224}>
-				<HomePageM contents={HomeContents}>Barnes</HomePageM>
+				<HomePageM contents={HomeContents} sidebar={props.sidebar}>
+					Barnes 7-6-2019
+				</HomePageM>
 			</MediaQuery>
 		</React.Fragment>
 	);
