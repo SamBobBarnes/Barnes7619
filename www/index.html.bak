@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Barnes</title>
+    <link id="maincsshome" rel="stylesheet" type="text/css" href="CSS/main.css">
+    <link rel="stylesheet" type="text/css" href="CSS/fonts.css">
+    <!--<script src="JAVA/index.js" type="text/javascript"></script>-->
+    <script src="JAVA/SideBar.js" type="text/javascript"></script>
+    <script src="JAVA/isMobile.js" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <div class='head'>
+      <h1>Barnes 7-6-2019</h1>
+    </div>
+
+    <div id='sidebar'>
+      <script type="text/javascript">
+        document.getElementById("sidebar").innerHTML = google() + itemSamuelBarnes(true) + itemAundreaBarnes(false);
+        document.getElementById("itemSamuelBarnes").addEventListener("click", function(){ location.href = "/SamuelBarnes"; });
+        document.getElementById("itemAundreaBarnes").addEventListener("click", function(){ location.href = "/AundreaBarnes"; });
+        sidebarHeight(2);
+      </script>
+    </div>
+
+    <div class='bodywrap'>
+      <div id='body'>
+          <img id="BarnesB" src="IMG/BarnesB.jpg"/>
+          <h2 class="headingMed centerText">We are the Barnes Family!</h2>
+          <p class="ComicSans15">We are Samuel and Aundrea Barnes. We are currently students in our junior year of studies at William Penn University.</p>
+
+      </div>
+    </div>
+    </form>
+  </body>
+</html>
