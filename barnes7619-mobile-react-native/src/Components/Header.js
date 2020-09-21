@@ -44,6 +44,7 @@ export class Header extends Component {
 			textAlignVertical: 'center',
 			textAlign: 'center',
 			fontSize: 40,
+			fontFamily: 'Pacifico',
 		},
 		hamburgerButton: {
 			width: 40,
