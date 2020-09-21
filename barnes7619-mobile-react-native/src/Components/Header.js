@@ -1,80 +1,88 @@
-import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import React from 'react';
+import { StyleSheet, Text, View } from 'react-native';
 import '../CSS/Main.css';
+import { useFonts, Pacifico_400Regular } from '@expo-google-fonts/dev';
+import { AppLoading } from 'expo';
 
-export class Header extends Component {
-	render() {
+function Header(props) {
+	let [fontsLoaded] = useFonts({
+		Pacifico_400Regular,
+	});
+
+	if (!fontsLoaded) {
+		return <AppLoading />;
+	} else {
 		return (
-			<View style={this.styles.header}>
-				<View style={this.styles.hamburgerButton}>
-					<View style={this.styles.hamburgerButtonL1}></View>
-					<View style={this.styles.hamburgerButtonL2}></View>
-					<View style={this.styles.hamburgerButtonL3}></View>
-					<View style={this.styles.hamburgerButtonL4}></View>
-					<View style={this.styles.hamburgerButtonL5}></View>
+			<View style={styles.header}>
+				<View style={styles.hamburgerButton}>
+					<View style={styles.hamburgerButtonL1}></View>
+					<View style={styles.hamburgerButtonL2}></View>
+					<View style={styles.hamburgerButtonL3}></View>
+					<View style={styles.hamburgerButtonL4}></View>
+					<View style={styles.hamburgerButtonL5}></View>
 				</View>
-				<View style={this.styles.headerTextContainer}>
+				<View style={styles.headerTextContainer}>
 					<Text
 						adjustsFontSizeToFit={true}
 						numberOfLines={1}
-						style={this.styles.headerText}
+						style={styles.headerText}
 					>
-						{this.props.children}
+						{props.children}
 					</Text>
 				</View>
 			</View>
 		);
 	}
-
-	styles = {
-		header: {
-			backgroundColor: '#ff6600',
-			width: '100%',
-			height: 80,
-			flexDirection: 'row',
-		},
-		headerTextContainer: {
-			justifyContent: 'center',
-			alignItems: 'center',
-			marginLeft: 10,
-			marginRight: 10,
-			flex: 1,
-		},
-		headerText: {
-			textAlignVertical: 'center',
-			textAlign: 'center',
-			fontSize: 40,
-			fontFamily: 'Pacifico',
-		},
-		hamburgerButton: {
-			width: 40,
-			height: 40,
-			marginLeft: 10,
-			marginTop: 20,
-			flexDirection: 'column',
-		},
-		hamburgerButtonL1: {
-			flex: 2,
-			backgroundColor: 'black',
-			borderRadius: 5,
-		},
-		hamburgerButtonL2: {
-			flex: 1,
-		},
-		hamburgerButtonL3: {
-			flex: 2,
-			backgroundColor: 'black',
-			borderRadius: 5,
-		},
-		hamburgerButtonL4: {
-			flex: 1,
-		},
-		hamburgerButtonL5: {
-			flex: 2,
-			backgroundColor: 'black',
-			borderRadius: 5,
-		},
-	};
 }
+
+const styles = StyleSheet.create({
+	header: {
+		backgroundColor: '#ff6600',
+		width: '100%',
+		height: 80,
+		flexDirection: 'row',
+	},
+	headerTextContainer: {
+		justifyContent: 'center',
+		alignItems: 'center',
+		marginLeft: 10,
+		marginRight: 10,
+		flex: 1,
+	},
+	headerText: {
+		textAlignVertical: 'center',
+		textAlign: 'center',
+		fontSize: 40,
+		fontFamily: 'Pacifico_400Regular',
+	},
+	hamburgerButton: {
+		width: 40,
+		height: 40,
+		marginLeft: 10,
+		marginTop: 20,
+		flexDirection: 'column',
+	},
+	hamburgerButtonL1: {
+		flex: 2,
+		backgroundColor: 'black',
+		borderRadius: 5,
+	},
+	hamburgerButtonL2: {
+		flex: 1,
+	},
+	hamburgerButtonL3: {
+		flex: 2,
+		backgroundColor: 'black',
+		borderRadius: 5,
+	},
+	hamburgerButtonL4: {
+		flex: 1,
+	},
+	hamburgerButtonL5: {
+		flex: 2,
+		backgroundColor: 'black',
+		borderRadius: 5,
+	},
+});
 
 export default Header;
