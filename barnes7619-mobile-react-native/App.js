@@ -1,6 +1,7 @@
-import React from "react";
-import { StyleSheet, Text, View, Platform } from "react-native";
-import { Router, Route, Link } from "./react-router";
+import React from 'react';
+import { StyleSheet, Text, View, Platform } from 'react-native';
+import { Router, Route, Link } from './react-router';
+import './src/CSS/Main.css';
 
 const Home = () => <Text>Home</Text>;
 
@@ -8,8 +9,8 @@ const About = () => <Text>About</Text>;
 
 const App = () => (
   <Router>
-    <View style={styles.container}>
-      <View style={styles.nav}>
+    <View className="container">
+      <View className="nav">
         <Link to="/">
           <Text>Home</Text>
         </Link>
@@ -24,15 +25,15 @@ const App = () => (
   </Router>
 );
 
-const styles = StyleSheet.create({
-  container: {
-    marginTop: 25,
-    padding: 10
-  },
-  nav:{
-    flexDirection: 'row',
-    justifyContent: 'space-around',
-  },
-});
+// const styles = StyleSheet.create({
+//   container: {
+//     marginTop: 25,
+//     padding: 10
+//   },
+//   nav:{
+//     flexDirection: 'row',
+//     justifyContent: 'space-around',
+//   },
+// });
 
 export default App;

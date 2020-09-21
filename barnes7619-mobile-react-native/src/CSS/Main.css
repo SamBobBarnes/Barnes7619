@@ -1,0 +1,9 @@
+.container {
+  margin-top: 25;
+  padding: 10;
+}
+
+.nav {
+  flex-direction: row;
+  justify-content: space-around;
+}
