@@ -8,7 +8,7 @@ export class HomePage extends Component {
     super(props);
 
     this.state = {
-      sideBarVis: true,
+      sideBarVis: false,
     };
   }
 

@@ -38,6 +38,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 40,
     fontFamily: 'Pacifico_400Regular',
+    marginRight: 45,
   },
 });
 
