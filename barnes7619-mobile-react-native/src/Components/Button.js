@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Link } from 'react-router-dom';
+import ButtonText from './ButtonText';
 
 export class Button extends Component {
   constructor(props) {
@@ -16,15 +17,11 @@ export class Button extends Component {
       <Link to={this.state.href} style={{ textDecoration: 'none' }}>
         {this.props.current ? (
           <View style={this.styles.sideBarItemH}>
-            <Text style={this.styles.sideBarItemText}>
-              <b>{this.props.children}</b>
-            </Text>
+            <ButtonText>{this.props.children}</ButtonText>
           </View>
         ) : (
           <View style={this.styles.sideBarItemN}>
-            <Text style={this.styles.sideBarItemText}>
-              <b>{this.props.children}</b>
-            </Text>
+            <ButtonText>{this.props.children}</ButtonText>
           </View>
         )}
       </Link>
@@ -75,13 +72,6 @@ export class Button extends Component {
       shadowRadius: 3.84,
 
       elevation: 5,
-    },
-
-    sideBarItemText: {
-      textAlign: 'center',
-      lineHeight: 27,
-      color: 'black',
-      textDecorationLine: 'none',
     },
   });
 }

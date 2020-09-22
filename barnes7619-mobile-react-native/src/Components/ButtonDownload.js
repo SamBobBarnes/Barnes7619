@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { Link } from 'react-router-dom';
+import SamPDF from '../Resumes/Resume-Samuel-Barnes.pdf';
+import OndaPDF from '../Resumes/Resume-Aundrea-Barnes.pdf';
+import ButtonText from './ButtonText';
 
 export class Button extends Component {
   constructor(props) {
@@ -24,9 +26,7 @@ export class Button extends Component {
     return (
       <a href={PDF} download={name} style={{ textDecoration: 'none' }}>
         <View style={this.styles.sideBarItemN}>
-          <Text styles={this.styles.sideBarItemText}>
-            <b>{this.props.children}</b>
-          </Text>
+          <ButtonText>{this.props.children}</ButtonText>
         </View>
       </a>
     );
@@ -54,12 +54,6 @@ export class Button extends Component {
       shadowRadius: 3.84,
 
       elevation: 5,
-    },
-    sideBarItemText: {
-      textAlign: 'center',
-      lineHeight: 27,
-      color: 'black',
-      textDecorationLine: 'none',
     },
   });
 }

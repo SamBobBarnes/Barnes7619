@@ -13,11 +13,7 @@ function HeaderText(props) {
   } else {
     return (
       <View style={styles.headerTextContainer}>
-        <Text
-          adjustsFontSizeToFit={true}
-          numberOfLines={1}
-          style={styles.headerText}
-        >
+        <Text numberOfLines={1} style={styles.headerText}>
           {props.children}
         </Text>
       </View>
