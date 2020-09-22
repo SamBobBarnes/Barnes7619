@@ -43,6 +43,16 @@ export class Button extends Component {
       flex: 1,
       justifyContent: 'center',
       alignItems: 'center',
+
+      shadowColor: '#000',
+      shadowOffset: {
+        width: 0,
+        height: 2,
+      },
+      shadowOpacity: 0.25,
+      shadowRadius: 3.84,
+
+      elevation: 5,
     },
     sideBarItemH: {
       width: 300,
@@ -55,6 +65,16 @@ export class Button extends Component {
       flex: 1,
       justifyContent: 'center',
       alignItems: 'center',
+
+      shadowColor: '#000',
+      shadowOffset: {
+        width: 0,
+        height: 2,
+      },
+      shadowOpacity: 0.25,
+      shadowRadius: 3.84,
+
+      elevation: 5,
     },
 
     sideBarItemText: {

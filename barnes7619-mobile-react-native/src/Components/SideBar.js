@@ -1,15 +1,15 @@
 import { StyleSheet, View } from 'react-native';
 import React, { Component } from 'react';
 import Button from './Button';
+import ButtonDownload from './ButtonDownload';
 
 export class SideBar extends Component {
   render() {
     const nodes = this.props.linkList.map((node) =>
       node.download ? (
-        // <ButtonDownload key={node.id} href={node.href}>
-        //   {node.text}
-        // </ButtonDownload>
-        <View></View>
+        <ButtonDownload key={node.id} href={node.href}>
+          {node.text}
+        </ButtonDownload>
       ) : (
         <Button
           key={node.id}
@@ -34,6 +34,17 @@ export class SideBar extends Component {
       flexDirection: 'column',
       justifyContent: 'center',
       alignItems: 'center',
+      padding: 5,
+
+      shadowColor: '#000',
+      shadowOffset: {
+        width: 0,
+        height: 2,
+      },
+      shadowOpacity: 0.25,
+      shadowRadius: 3.84,
+
+      elevation: 5,
     },
   });
 }
