@@ -1,11 +1,5 @@
 import React from 'react';
-import {
-  Button,
-  StyleSheet,
-  Text,
-  TouchableWithoutFeedback,
-  View,
-} from 'react-native';
+import { StyleSheet, TouchableOpacity, View } from 'react-native';
 import '../CSS/Main.css';
 import HamburgerButton from './HamburgerButton';
 import HeaderText from './HeaderText';
@@ -13,12 +7,18 @@ import HeaderText from './HeaderText';
 function Header(props) {
   return (
     <View style={styles.header}>
-      <TouchableWithoutFeedback onPress={() => console.log('Touched!')}>
-        <HamburgerButton />
-      </TouchableWithoutFeedback>
+      <TouchableOpacity onPress={props.touched}>
+        <View>
+          <HamburgerButton />
+        </View>
+      </TouchableOpacity>
       <HeaderText>{props.children}</HeaderText>
     </View>
   );
+}
+
+function Touched() {
+  alert('Touched!');
 }
 
 const styles = StyleSheet.create({
