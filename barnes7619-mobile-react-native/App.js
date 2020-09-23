@@ -16,57 +16,57 @@ import PortfolioPage from './src/Components/PortfolioPage';
 // functionAbout = () => <Text>About</Text>;
 
 class App extends Component {
-  render() {
-    return (
-      <Router>
-        <View>
-          <Switch>
-            <Route
-              path={['/http:', '/https:']}
-              component={(props) => {
-                window.location.replace(props.location.pathname.substr(1)); // substr(1) removes the preceding '/'
-                return null;
-              }}
-            />
-            <Route path="/SamuelBarnes/Portfolio" component={SBPortfolio} />
-            <Route path="/SamuelBarnes" component={SamuelBarnes} />
-            <Route path="/AundreaBarnes" component={AundreaBarnes} />
-            <Route path="/" component={Home} />
-          </Switch>
-        </View>
-      </Router>
-    );
-  }
+	render() {
+		return (
+			<Router>
+				<View style={{ backgroundColor: '#18c47f' }}>
+					<Switch>
+						<Route
+							path={['/http:', '/https:']}
+							component={(props) => {
+								window.location.replace(props.location.pathname.substr(1)); // substr(1) removes the preceding '/'
+								return null;
+							}}
+						/>
+						<Route path='/SamuelBarnes/Portfolio' component={SBPortfolio} />
+						<Route path='/SamuelBarnes' component={SamuelBarnes} />
+						<Route path='/AundreaBarnes' component={AundreaBarnes} />
+						<Route path='/' component={Home} />
+					</Switch>
+				</View>
+			</Router>
+		);
+	}
 }
 
 function Home() {
-  return <HomePage contents={HomeContents}>Barnes</HomePage>;
+	return <HomePage contents={HomeContents}>Barnes</HomePage>;
 }
 
 function SamuelBarnes() {
-  return (
-    <React.Fragment>
-      <PersonPage contents={SamuelContents}>Samuel Barnes</PersonPage>
-    </React.Fragment>
-  );
+	return (
+		<React.Fragment>
+			<PersonPage contents={SamuelContents}>Samuel Barnes</PersonPage>
+		</React.Fragment>
+	);
 }
 
 function AundreaBarnes() {
-  return (
-    <React.Fragment>
-      <PersonPage contents={AundreaContents}>Aundrea Barnes</PersonPage>
-    </React.Fragment>
-  );
+	return (
+		<React.Fragment>
+			<PersonPage contents={AundreaContents}>Aundrea Barnes</PersonPage>
+		</React.Fragment>
+	);
 }
 
 function SBPortfolio() {
-  return (
-    <React.Fragment>
-      <PortfolioPage contents={SamuelPortfolioContents}>
-        SB Portfolio
-      </PortfolioPage>
-    </React.Fragment>
-  );
+	return (
+		<React.Fragment>
+			<PortfolioPage contents={SamuelPortfolioContents}>
+				SB Portfolio
+			</PortfolioPage>
+		</React.Fragment>
+	);
 }
 
 export default App;
