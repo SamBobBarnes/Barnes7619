@@ -7,7 +7,9 @@ import HomePage from './src/Components/HomePage';
 import HomeContents from './src/PageContents/Home.json';
 import SamuelContents from './src/PageContents/Samuel.json';
 import AundreaContents from './src/PageContents/Aundrea.json';
+import SamuelPortfolioContents from './src/PageContents/SamuelPortfolio.json';
 import PersonPage from './src/Components/PersonPage';
+import PortfolioPage from './src/Components/PortfolioPage';
 
 // functionHome = () => <Text>Home</Text>;
 
@@ -58,14 +60,13 @@ function AundreaBarnes() {
 }
 
 function SBPortfolio() {
-  return <Text>Samuel Barnes Portfolio</Text>;
-  // return (
-  //   <React.Fragment>
-  //     <PortfolioPage contents={SamuelPortfolioContents}>
-  //       Samuel Barnes Portfolio
-  //     </PortfolioPage>
-  //   </React.Fragment>
-  // );
+  return (
+    <React.Fragment>
+      <PortfolioPage contents={SamuelPortfolioContents}>
+        SB Portfolio
+      </PortfolioPage>
+    </React.Fragment>
+  );
 }
 
 export default App;
