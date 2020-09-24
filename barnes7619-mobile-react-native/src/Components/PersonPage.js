@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import '../CSS/Main.css';
+import BodyText from './BodyText';
 import Header from './Header';
 import SideBar from './SideBar';
 
@@ -25,6 +26,14 @@ export class PersonPage extends Component {
 		}
 	};
 
+	styles = StyleSheet.create({
+		heading: {
+			fontSize: 30,
+			textAlign: 'center',
+			fontWeight: 'bold',
+		},
+	});
+
 	render() {
 		const { links, heading, body } = this.props.contents;
 		return (
@@ -33,10 +42,10 @@ export class PersonPage extends Component {
 				{this.state.sideBarVis && (
 					<SideBar linkList={links} visible={this.state.sideBarVis} />
 				)}
-				<View>
+				<View style={{ marginTop: 90 }}>
 					<View>
-						<h2>{heading}</h2>
-						<p>{body}</p>
+						<Text style={this.styles.heading}>{heading}</Text>
+						<BodyText page='SB'>{body}</BodyText>
 					</View>
 				</View>
 			</React.Fragment>
