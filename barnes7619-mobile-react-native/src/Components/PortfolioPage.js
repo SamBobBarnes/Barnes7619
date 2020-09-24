@@ -43,12 +43,12 @@ export class PortfolioPage extends Component {
 				{this.state.sideBarVis && (
 					<SideBar linkList={links} visible={this.state.sideBarVis} />
 				)}
-				<div>
-					<div>
+				<View>
+					<View>
 						<h2>{heading}</h2>
 						<div>{bodyList}</div>
-					</div>
-				</div>
+					</View>
+				</View>
 			</React.Fragment>
 		);
 	}

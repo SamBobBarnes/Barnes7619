@@ -45,6 +45,8 @@ export class SideBar extends Component {
 			shadowRadius: 3.84,
 
 			elevation: 5,
+
+			zIndex: 5,
 		},
 	});
 }

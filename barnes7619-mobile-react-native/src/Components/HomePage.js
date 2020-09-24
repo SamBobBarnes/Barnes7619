@@ -42,10 +42,10 @@ export class HomePage extends Component {
 				{this.state.sideBarVis && (
 					<SideBar linkList={links} visible={this.state.sideBarVis} />
 				)}
-				<div className={styles.wrapper}>
+				<View style={styles.wrapper}>
 					<Text style={styles.heading}>{heading}</Text>
 					<p>{body}</p>
-				</div>
+				</View>
 			</React.Fragment>
 		);
 	}

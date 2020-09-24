@@ -11,15 +11,11 @@ import SamuelPortfolioContents from './src/PageContents/SamuelPortfolio.json';
 import PersonPage from './src/Components/PersonPage';
 import PortfolioPage from './src/Components/PortfolioPage';
 
-// functionHome = () => <Text>Home</Text>;
-
-// functionAbout = () => <Text>About</Text>;
-
 class App extends Component {
 	render() {
 		return (
 			<Router>
-				<View style={{ backgroundColor: '#18c47f' }}>
+				<View style={mainStyles.main}>
 					<Switch>
 						<Route
 							path={['/http:', '/https:']}
@@ -44,29 +40,30 @@ function Home() {
 }
 
 function SamuelBarnes() {
-	return (
-		<React.Fragment>
-			<PersonPage contents={SamuelContents}>Samuel Barnes</PersonPage>
-		</React.Fragment>
-	);
+	return <PersonPage contents={SamuelContents}>Samuel Barnes</PersonPage>;
 }
 
 function AundreaBarnes() {
-	return (
-		<React.Fragment>
-			<PersonPage contents={AundreaContents}>Aundrea Barnes</PersonPage>
-		</React.Fragment>
-	);
+	return <PersonPage contents={AundreaContents}>Aundrea Barnes</PersonPage>;
 }
 
 function SBPortfolio() {
 	return (
-		<React.Fragment>
-			<PortfolioPage contents={SamuelPortfolioContents}>
-				SB Portfolio
-			</PortfolioPage>
-		</React.Fragment>
+		<PortfolioPage contents={SamuelPortfolioContents}>
+			SB Portfolio
+		</PortfolioPage>
 	);
 }
+
+const mainStyles = StyleSheet.create({
+	main: {
+		backgroundColor: '#18c47f',
+		position: 'absolute',
+		top: 0,
+		bottom: 0,
+		left: 0,
+		right: 0,
+	},
+});
 
 export default App;
