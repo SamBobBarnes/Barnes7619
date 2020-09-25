@@ -15,7 +15,7 @@ export default function App() {
         <Route
           path={['/http:', '/https:']}
           component={(props) => {
-            window.location.replace(props.location.pathname.substr(1)); // substr(1) removes the preceding '/'
+            window.location.assign(props.location.pathname.substr(1)); // substr(1) removes the preceding '/'
             return null;
           }}
         />
