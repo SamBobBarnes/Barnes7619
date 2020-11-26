@@ -1,5 +1,5 @@
 import React from 'react';
-import { useFonts, Pacifico_400Regular } from '@expo-google-fonts/dev';
+import { useFonts, Pacifico_400Regular } from '@expo-google-fonts/pacifico';
 import { AppLoading } from 'expo';
 import { View, StyleSheet, Text } from 'react-native';
 

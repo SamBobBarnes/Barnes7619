@@ -1,13 +1,21 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import {
-	useFonts,
-	Pacifico_400Regular,
-	ComicNeue_400Regular,
-	JosefinSans_400Regular,
-	BalsamiqSans_400Regular,
-	Inconsolata_400Regular,
-} from '@expo-google-fonts/dev';
+// import {
+// 	useFonts,
+// 	Pacifico_400Regular,
+// 	ComicNeue_400Regular,
+// 	JosefinSans_400Regular,
+// 	BalsamiqSans_400Regular,
+// 	Inconsolata_400Regular,
+// } from '@expo-google-fonts/dev';
+
+import { useFonts, Pacifico_400Regular } from '@expo-google-fonts/pacifico';
+import { ComicNeue_400Regular } from '@expo-google-fonts/comic-neue';
+import { JosefinSans_400Regular } from '@expo-google-fonts/josefin-sans';
+import { BalsamiqSans_400Regular } from '@expo-google-fonts/balsamiq-sans';
+import { Inconsolata_400Regular } from '@expo-google-fonts/inconsolata';
+
+
 import { AppLoading } from 'expo';
 
 function BodyText(props) {

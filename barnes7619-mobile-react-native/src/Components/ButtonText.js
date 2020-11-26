@@ -1,5 +1,5 @@
 import React from 'react';
-import { useFonts, PatrickHand_400Regular } from '@expo-google-fonts/dev';
+import { useFonts, PatrickHand_400Regular } from '@expo-google-fonts/patrick-hand';
 import { AppLoading } from 'expo';
 import { StyleSheet, Text, View } from 'react-native';
 
