@@ -35,7 +35,7 @@ export class PersonPage extends Component {
 	});
 
 	render() {
-		const { links, heading, body } = this.props.contents;
+		const { links, heading, body, bodyfont } = this.props.contents;
 		return (
 			<React.Fragment>
 				<Header touched={this.Touched}>{this.props.children}</Header>
@@ -45,7 +45,7 @@ export class PersonPage extends Component {
 				<View style={{ marginTop: 90 }}>
 					<View>
 						<Text style={this.styles.heading}>{heading}</Text>
-						<BodyText page='SB'>{body}</BodyText>
+						<BodyText page={bodyfont ? 'SB' : 'AB'}>{body}</BodyText>
 					</View>
 				</View>
 			</React.Fragment>
