@@ -53,6 +53,13 @@
       "href": "https://github.com/SamBobBarnes/PersonalCodingProjects"
     },
     {
+      "id": 4,
+      "blink": "",
+      "link": "Resume Automator",
+      "alink": " - a work in progress app to automate my resume updates and creation that inlcudes automatic formatting and a simple interface for adding, removing, and editing my resume. I hope to add template functionality to this project and eventually release it as freeware.",
+      "href": "https://github.com/SamBobBarnes/ResumeAutomator"
+    },
+    {
       "id": 5,
       "blink": "",
       "link": "Yahtzee Game",
